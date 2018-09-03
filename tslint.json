@@ -6,7 +6,7 @@
     "curly": [true, "ignore-same-line"],
     "forin": false,
     "interface-name": [true, "never-prefix"],
-    "max-classes-per-file": [false],
+    "max-classes-per-file": false,
     "max-line-length": [false],
     "member-access": [true, "no-public"],
     "no-duplicate-imports": true,
@@ -26,6 +26,7 @@
     "whitespace": [true,
       "check-branch", "check-decl", "check-module", "check-operator", "check-preblock",
       "check-rest-spread", "check-separator", "check-type", "check-type-operator", "check-typecast"
-    ]
+    ],
+    "label-position": false
   }
 }
