@@ -1,16 +1,21 @@
 {
   "name": "typeint",
-  "version": "0.5.0",
-  "description": "A brand new TypeScript library.",
+  "version": "0.0.1",
+  "description": "TypeScript utility types for working with integer ranges from 0-100",
   "main": "dist/commonjs/src/index.js",
   "module": "dist/modules/src/index.js",
   "types": "dist/types/src/index.d.ts",
   "ember-addon": {
     "main": "ember-addon.js"
   },
+  "author": "Mike North <michael.l.north@gmail.com> (https://mike.works)",
   "keywords": [
     "ember-addon"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mike-north/typeint"
+  },
   "scripts": {
     "problems": "node ./scripts/problems.js",
     "preversion": "npm run test",
@@ -23,6 +28,7 @@
   },
   "license": "BSD-2-Clause",
   "devDependencies": {
+    "@mike-north/js-lib-semantic-release-config": "^0.0.0-development",
     "@types/ejs": "^2.6.0",
     "@types/qunit": "^2.0.31",
     "dtslint": "^0.3.0",
@@ -36,5 +42,8 @@
   },
   "dependencies": {
     "ts-std": "^0.6.2"
+  },
+  "release": {
+    "extends": "@mike-north/js-lib-semantic-release-config"
   }
 }
