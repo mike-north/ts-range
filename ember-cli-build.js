@@ -1,5 +1,6 @@
 'use strict';
 
 module.exports = require('libkit').build({
-  name: 'typeint'
+  name: 'typeint',
+  root: __dirname
 });

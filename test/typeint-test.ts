@@ -3,7 +3,7 @@ import { Gt, Gte, Lt, Lte, Not } from 'typeint';
 QUnit.module('typeint tests');
 
 QUnit.test('hello', assert => {
-  assert.expect(0);
+  assert.ok(true);
   // These should all be ok
   let x: Gt<10> & Lt<13> = 11;
   x = 12;

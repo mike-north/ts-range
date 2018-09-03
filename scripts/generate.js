@@ -4,7 +4,7 @@ const path = require('path');
 
 const LOCALS = {
   rangeMin: 0,
-  rangeMax: 100
+  rangeMax: 14
 };
 
 /**
