@@ -1,3 +1,1 @@
-export default function hello() {
-  return 'Hello from typeint';
-}
+export { Gt, Gte, Lt, Lte, Not } from './comparison';

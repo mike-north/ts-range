@@ -1,0 +1,15 @@
+export interface MinusOneMap {
+<% for (let i = rangeMin; i <= rangeMax; i++) { %><%= '  ' + i %>: <%= i === rangeMin ? 'never' : i - 1 %>;
+<% } %>}
+
+export type Num = keyof MinusOneMap;
+
+export type MinusOne<X extends Num> = MinusOneMap[X];
+
+export type PlusOne<V> = {
+  [K in keyof MinusOneMap]: V extends MinusOneMap[K] ? K : never;
+}[keyof MinusOneMap];
+
+export interface GtMap {
+  <% for (let i = rangeMin; i <= rangeMax; i++) { %><%= '  ' + i %>: Exclude<<%- i === rangeMin ? `Num, ${i}>` : `GtMap[${i-1}], ${i}>`%>;
+<%}%>}
