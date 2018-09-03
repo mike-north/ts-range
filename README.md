@@ -1,5 +1,8 @@
 # Type-Int
 
+[![Build Status](https://travis-ci.org/mike-north/typeint.svg?branch=master)](https://travis-ci.org/mike-north/typeint)
+[![Version](https://img.shields.io/npm/v/:package.svg)](http://npmjs.com/package/typeint)
+
 TypeScript utility types for working with integer ranges from 0-100.
 
 ```ts
