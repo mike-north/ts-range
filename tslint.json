@@ -27,6 +27,10 @@
       "check-branch", "check-decl", "check-module", "check-operator", "check-preblock",
       "check-rest-spread", "check-separator", "check-type", "check-type-operator", "check-typecast"
     ],
-    "label-position": false
+    "label-position": false,
+    "no-angle-bracket-type-assertion": false,
+    "object-literal-key-quotes": false,
+    "no-string-throw": false,
+    "no-var-keyword": false
   }
 }
