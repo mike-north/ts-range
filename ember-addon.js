@@ -3,7 +3,7 @@
 const path = require('path');
 
 module.exports = {
-  name: 'typeint',
+  name: 'ts-range',
 
   setupPreprocessorRegistry(type, registry) {
     if (type === 'self') {

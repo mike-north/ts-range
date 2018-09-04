@@ -1,6 +1,6 @@
-import { Gt, Gte, Lt, Lte, Not } from 'typeint';
+import { Gt, Gte, Lt, Lte, Not } from 'ts-range';
 
-QUnit.module('typeint tests');
+QUnit.module('TS-Range tests');
 
 QUnit.test('hello', assert => {
   assert.ok(true);

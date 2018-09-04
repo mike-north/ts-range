@@ -1,6 +1,6 @@
 'use strict';
 
 module.exports = require('libkit').build({
-  name: 'typeint',
+  name: 'ts-range',
   root: __dirname
 });

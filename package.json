@@ -1,5 +1,5 @@
 {
-  "name": "typeint",
+  "name": "ts-range",
   "version": "0.0.0-development",
   "description": "TypeScript utility types for working with integer ranges from 0-100",
   "main": "dist/commonjs/src/index.js",
@@ -14,7 +14,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/mike-north/typeint"
+    "url": "https://github.com/mike-north/ts-range"
   },
   "scripts": {
     "problems": "node ./scripts/problems.js",
