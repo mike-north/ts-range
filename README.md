@@ -17,4 +17,4 @@ const z: Gte<1> & Lt<5> & Not<3>; // 1 | 2 | 4
 ```
 
 ---
-(c) LinkedIn 2018
+(c) 2018 LinkedIn
