@@ -1,7 +1,7 @@
 # TS-Range
 
 [![Build Status](https://travis-ci.org/mike-north/ts-range.svg?branch=master)](https://travis-ci.org/mike-north/ts-range)
-[![Version](https://img.shields.io/npm/v/:package.svg)](http://npmjs.com/package/ts-range)
+[![Version](https://img.shields.io/npm/v/ts-range.svg)](http://npmjs.com/package/ts-range)
 
 TypeScript utility types for working with integer ranges from 0-100.
 
